@@ -1,0 +1,1 @@
+from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get("/voice")\ndef read_voice():\n    return {"message": "Voice endpoint"}\n\n@app.get("/chat")\ndef read_chat():\n    return {"message": "Chat endpoint"}
