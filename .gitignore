@@ -1,0 +1,2 @@
+# Python
+__pycache__/\n*.py[cod]\n*$py.class\n\n# Node.js\nnode_modules/\nnpm-debug.log\nyarn-error.log\n
